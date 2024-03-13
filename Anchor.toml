@@ -22,3 +22,5 @@ wallet = "/home/scawf/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+# IDL -> 5BX6t9UtKdNyHzyuXHUqUWNzWt7rNR4JiNYZjdqBpNHY
