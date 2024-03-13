@@ -4,12 +4,12 @@ Simple program to demonstrate how to assert a token balance is <= or >= to a giv
 
 ## CLI usage
 
-Assert wallet balance is > 1 for token `7PprzfgySGixbCwR4bhuX7oBsns3wi7F9AU2gV1cWAP7` 
+Assert wallet balance is > 1 for token `7PprzfgySGixbCwR4bhuX7oBsns3wi7F9AU2gV1cWAP7` (some token mint address on devnet)
 
 ```
 assert_client \
     -c https://api.devnet.solana.com \
-    -w /home/scawf/.config/solana/id.json \
+    -w solana_id.json \
     assert-greater-than 1000000000 \
     --mint 7PprzfgySGixbCwR4bhuX7oBsns3wi7F9AU2gV1cWAP7
 ```
